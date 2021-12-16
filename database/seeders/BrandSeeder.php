@@ -19,5 +19,11 @@ class BrandSeeder extends Seeder
             'logo' => 'logo-tanpa-file.png',
             'banner' => 'banner-tanpa-file.png'
         ]);
+
+        Brand::create([
+            'name' => 'Kilo',
+            'logo' => 'logo-kilo-file.png',
+            'banner' => 'banner-kilo-file.png'
+        ]);
     }
 }

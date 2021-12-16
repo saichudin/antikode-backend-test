@@ -20,5 +20,19 @@ class ProductSeeder extends Seeder
             'picture' => 'picture-tanpa-file.jpg',
             'price' => 120000,
         ]);
+
+        Product::create([
+            'name' => 'Gelas',
+            'brand_id' => 2,
+            'picture' => 'picture-gelas-file.jpg',
+            'price' => 20000,
+        ]);
+
+        Product::create([
+            'name' => 'Piring',
+            'brand_id' => 2,
+            'picture' => 'picture-piring-file.jpg',
+            'price' => 25000,
+        ]);
     }
 }

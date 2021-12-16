@@ -22,5 +22,14 @@ class OutletSeeder extends Seeder
             'longitude' => '106.845054',
             'latitude' => '-6.128028'
         ]);
+
+        Outlet::create([
+            'name' => 'Kilo ku',
+            'brand_id' => 2,
+            'picture' => 'picture-tanpa-file.png',
+            'address' => 'Jl. Buntu',
+            'longitude' => '110.103504',
+            'latitude' => '-7.504355'
+        ]);
     }
 }
