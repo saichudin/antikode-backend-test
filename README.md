@@ -11,6 +11,7 @@ How to run :
 - run ``php artisan key:generate``
 - run ``php artisan migrate``
 - run ``php artisan db:seed``
+- run app use ``php artisan serve``
 
 use API client such as Postman to test the API
 
